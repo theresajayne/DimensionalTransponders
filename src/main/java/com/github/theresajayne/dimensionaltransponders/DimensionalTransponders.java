@@ -1,5 +1,7 @@
 package com.github.theresajayne.dimensionaltransponders;
 
+import com.github.theresajayne.dimensionaltransponders.Blocks.BlockManager;
+import com.github.theresajayne.dimensionaltransponders.client.render.blocks.BlockRenderRegister;
 import com.github.theresajayne.dimensionaltransponders.common.DimensionalTranspondersCommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;
@@ -38,7 +40,7 @@ public class DimensionalTransponders {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
-
+        BlockManager.createBlocks();
     }
 
     @Mod.EventHandler
