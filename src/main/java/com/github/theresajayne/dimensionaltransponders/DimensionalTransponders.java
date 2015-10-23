@@ -1,7 +1,6 @@
 package com.github.theresajayne.dimensionaltransponders;
 
-import com.github.theresajayne.dimensionaltransponders.Blocks.BlockManager;
-import com.github.theresajayne.dimensionaltransponders.client.render.blocks.BlockRenderRegister;
+import com.github.theresajayne.dimensionaltransponders.blocks.BlockManager;
 import com.github.theresajayne.dimensionaltransponders.common.DimensionalTranspondersCommonProxy;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Items;

@@ -1,6 +1,6 @@
 package com.github.theresajayne.dimensionaltransponders.client.render.blocks;
 
-import com.github.theresajayne.dimensionaltransponders.Blocks.BlockManager;
+import com.github.theresajayne.dimensionaltransponders.blocks.BlockManager;
 import com.github.theresajayne.dimensionaltransponders.DimensionalTransponders;
 import net.minecraft.block.Block;
 import net.minecraft.client.Minecraft;
