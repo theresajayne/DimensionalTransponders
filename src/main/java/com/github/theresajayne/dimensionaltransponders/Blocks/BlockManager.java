@@ -1,5 +1,9 @@
-package com.github.theresajayne.dimensionaltransponders.Blocks;
+package com.github.theresajayne.dimensionaltransponders.blocks;
 
+import com.github.theresajayne.dimensionaltransponders.DimensionalTransponders;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.resources.model.ModelResourceLocation;
+import net.minecraft.item.Item;
 import net.minecraftforge.fml.common.registry.GameRegistry;
 
 /**
@@ -13,6 +17,7 @@ public class BlockManager
 
     public static void createBlocks()
     {
-        GameRegistry.registerBlock(transponder = new Transponder("dim_transponder"),"transponder");
+        GameRegistry.registerBlock(transponder = new Transponder("transponder"),"transponder");
+
     }
 }

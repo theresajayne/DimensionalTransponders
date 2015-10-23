@@ -1,4 +1,4 @@
-package com.github.theresajayne.dimensionaltransponders.Blocks;
+package com.github.theresajayne.dimensionaltransponders.blocks;
 
 import com.github.theresajayne.dimensionaltransponders.DimensionalTransponders;
 import net.minecraft.block.Block;
