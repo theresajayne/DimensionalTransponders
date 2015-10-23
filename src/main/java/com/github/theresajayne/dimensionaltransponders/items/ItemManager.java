@@ -11,6 +11,6 @@ import net.minecraft.item.Item;
 public class ItemManager {
 
     public static void createItems(){
-        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(BlockManager.transponder), 0, new ModelResourceLocation("dimensionaltransponders:trransponder", "inventory"));
+        Minecraft.getMinecraft().getRenderItem().getItemModelMesher().register(Item.getItemFromBlock(BlockManager.transponder), 0, new ModelResourceLocation("dimensionaltransponders:block/transponder", "inventory"));
     }
 }
