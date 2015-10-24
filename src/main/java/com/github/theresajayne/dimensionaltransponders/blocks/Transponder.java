@@ -39,10 +39,6 @@ public class Transponder extends BlockContainer
         return new TransponderTE();
     }
 
-    public boolean shouldSideBeRendered(IBlockAccess iBlockAccess, int i, int j, int k, int l)
-    {
-        return false;
-    }
     @Override
     public int getRenderType() { return 3; }
 

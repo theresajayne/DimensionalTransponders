@@ -15,12 +15,11 @@ public class DimensionalTranspondersProxy extends DimensionalTranspondersCommonP
     public void init(FMLInitializationEvent event)
     {
         super.init(event);
-        BlockRenderRegister.registerBlockRenderer();
+
     }
 
     @Override
     public void preInit(FMLPreInitializationEvent event)
     {
-        ItemManager.createItems();
     }
 }

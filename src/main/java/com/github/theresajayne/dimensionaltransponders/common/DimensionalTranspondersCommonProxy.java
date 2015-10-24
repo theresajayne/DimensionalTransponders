@@ -16,6 +16,5 @@ public class DimensionalTranspondersCommonProxy
 
     public void preInit(FMLPreInitializationEvent event)
     {
-        BlockManager.createBlocks();
     }
 }
