@@ -1,14 +1,14 @@
 [
 {
-  "modid": "dimensionaltransponders",
-  "name": "Dimensional Transponders",
-  "description": "One way Teleporters and linked teleports",
+  "modid": "examplemod",
+  "name": "Example Mod",
+  "description": "Example placeholder mod.",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
-  "authorList": ["TheresaJayne"],
-  "credits": "I am sure I will get help from clienthax at some point",
+  "authorList": ["ExampleDude"],
+  "credits": "The Forge and FML guys, for making this example",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
